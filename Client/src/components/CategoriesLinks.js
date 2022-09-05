@@ -5,7 +5,8 @@ import { QUERY_CATEGORIES } from '../utils/queries';
 //import categories from '../data/categories'
 
 const CategoriesLinks = () => {
-
+  
+  // eslint-disable-next-line no-unused-vars
   const { loading, data } = useQuery(QUERY_CATEGORIES);
   const categories = data?.categories || [];
 

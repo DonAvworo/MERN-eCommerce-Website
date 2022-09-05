@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import logo from '../assets/logo.svg';
 
 const Footer = () => {

@@ -10,7 +10,7 @@ import { useCart } from "../context/CartContext";
 
 const Home = () => {
   const { onAddToCart } = useCart();
-
+  // eslint-disable-next-line no-unused-vars
   const { loading, data } = useQuery(QUERY_FEATURED_PRODUCTS);
   const products = data?.products || [];
 

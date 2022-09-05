@@ -16,7 +16,7 @@ const Product = () => {
   const { product } = useParams();
 
   console.log(`Product: product = ${product}`)
-
+  // eslint-disable-next-line no-unused-vars
   const { loading, data } = useQuery(QUERY_SINGLE_PRODUCT, {
     // pass URL parameter
     variables: { productId: product },

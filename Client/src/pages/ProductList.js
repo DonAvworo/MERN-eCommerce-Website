@@ -17,7 +17,8 @@ const ProductList = () => {
 
   console.log(`ProductList: category = ${category}`)
 
-  const { loading, data } = useQuery(QUERY_SINGLE_CATEGORY, {
+  // eslint-disable-next-line no-unused-vars                          
+  const { loading, data } = useQuery(QUERY_SINGLE_CATEGORY, { // useQuery hook
     // pass URL parameter
     variables: { name: category },
   });
