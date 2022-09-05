@@ -2,4 +2,14 @@
 to run mogod use
 ===========================
 
-mongod --dbpath ~/data/db
+mongod --dbpath ~/data/db or 
+mongod --dbpath ~/data/db --port 27017
+brew services start mongodb/brew/mongodb-community or
+
+if you don't want/need a background service you can just run:
+  mongod --config /usr/local/etc/mongod.conf
+=============================================================
+
+IMPORTANT!!!!
+// eslint-disable-next-line 
+
