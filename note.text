@@ -13,3 +13,14 @@ if you don't want/need a background service you can just run:
 IMPORTANT!!!!
 // eslint-disable-next-line 
 
+To run program use
+==================
+NPM I - stores the dependencies
+NPM run seed - seeds the database
+NPM run develop - builds the application for production
+
+"start": "node server --ignore client",
+"develop": "concurrently \"cd server && npm run start\" \"cd client && npm start\"",
+"install": "cd server && npm i && cd ../client && npm i",
+"seed": "cd server && npm run seed",
+"build": "cd client && npm run build"
